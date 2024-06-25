@@ -9,4 +9,6 @@
 ![](public/thingsBackendTackles.png)
 
 ## Directory Structure
+* *Files* - White coloured.
+* *Directory* - Yellow Coloured
 ![directory structure](public/directoryStructure.png)
