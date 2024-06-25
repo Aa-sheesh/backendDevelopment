@@ -12,3 +12,6 @@
 * *Files* - White coloured.
 * *Directory* - Yellow Coloured
 ![directory structure](public/directoryStructure.png)
+
+### Express Routing
+![](public/express/expressFlow.png)
