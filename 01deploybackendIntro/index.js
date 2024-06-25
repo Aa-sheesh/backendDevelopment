@@ -1,5 +1,6 @@
 require("dotenv").config();
-const express = require("express");
+const express = require("express"); //CommonJS Syntax
+import express from "express"//Module JS Syntax
 const app = express();
 
 const githubData = {
@@ -38,9 +39,7 @@ const githubData = {
   updated_at: "2024-06-21T14:09:43Z",
 };
 
-app.get('/github',(req,res)=>[
-    res.json(githubData)
-])
+app.get("/github", (req, res) => [res.json(githubData)]);
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
