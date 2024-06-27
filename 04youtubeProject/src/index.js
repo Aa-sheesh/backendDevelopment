@@ -1,11 +1,20 @@
-
+import { app } from "./app.js";
 import connectDb from "./db/index.js";
 import dotenv from "dotenv";
 
 dotenv.config({
   path: "./.env",
 });
-connectDb();
+connectDb()
+.then(()=>{
+  app.listen(process.env.PORT || 8000, () => {
+    console.log(`Server is up and running at port:${process.env.PORT}`)
+  }
+)
+})
+.catch((err) => {
+  console.log("Mongo DB connection failed!!!", err);
+});
 
 //iife function
 //iife is a function that is immediately invoked after it is created
