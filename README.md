@@ -14,4 +14,4 @@
 ![directory structure](public/directoryStructure.png)
 
 ### Express Routing
-![](public/express/expressFlow.png)
+![](public/expressFlow.png)
