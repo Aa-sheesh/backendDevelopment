@@ -1,0 +1,15 @@
+{
+  "name": "04youtubeproject",
+  "version": "1.0.0",
+  "description": "youtube project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "backend"
+  ],
+  "author": "Aashish",
+  "license": "ISC"
+}
