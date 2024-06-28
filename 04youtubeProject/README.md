@@ -2,7 +2,7 @@
 
 ## Model
 
-![youtube model](public/youtubeProjectModel.png)
+![youtube model](./youtubeProjectModel.png)
 Link: `https://app.eraser.io/workspace/MNhSwtDPULdXRieinIOW?origin=share&elements=4XZUDlBO-tE3usVfPzbo5Q`
 
 ## Middleware flow
@@ -16,3 +16,6 @@ Link:`https://app.eraser.io/workspace/bj3e4jpKoAzQfcO5B0gT?origin=share&elements
 - *mongoose-aggregate-paginate* : Helps in pagination 
 - *jsonwebtoken(jwt)* (cookies)
 - *bcrypt* : for hashing
+
+### Services used for file upload:
+- *cloudinary* using multer
