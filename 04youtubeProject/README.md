@@ -19,3 +19,6 @@ Link:`https://app.eraser.io/workspace/bj3e4jpKoAzQfcO5B0gT?origin=share&elements
 
 ### Services used for file upload:
 - *cloudinary* using multer
+
+### HTTP CRASH COURSE PDF:
+Link: [Link to pdf](https://drive.google.com/file/d/1HdiExiU3XoJIJ0pA1kPmrcg16uwJAC3J/view?usp=drivesdk)
