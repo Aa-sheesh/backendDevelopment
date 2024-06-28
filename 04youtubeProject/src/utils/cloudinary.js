@@ -1,4 +1,4 @@
-import { v2 as cloudinary } from "cloudinary";
+// import { v2 as cloudinary } from "cloudinary";
 //fs is file system in node
 import fs from "fs";
 import { v2 as cloudinary } from "cloudinary";
